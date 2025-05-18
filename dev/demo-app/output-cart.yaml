@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  DB_PASS: admin1234
+  DB_USER: admin
+  ENDPONT: https://prai.sarun
+kind: ConfigMap
+metadata:
+  name: cart
+  namespace: cart
